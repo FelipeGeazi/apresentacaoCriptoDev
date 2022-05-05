@@ -160,5 +160,5 @@ equalsButton.addEventListener("click", () => {
 
 deleteButton.addEventListener("click", () => {
     calculator.delete();
-    calculator.replace() /* updateDisplay() */ ;
+    calculator.updateDisplay() /* updateDisplay() */ ;
 });
